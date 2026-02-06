@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Барнайт 10</title>
+</head>
+<body>
+    <h1>Барнайт 10</h1>
+    
+    <form action="#" method="post">
+        <p>
+            <label for="phone">Номер телефона:</label><br>
+            <input type="tel" id="phone" name="phone" size="30" required>
+        </p>
+        
+        <p>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" size="30" required>
+        </p>
+        
+        <p>
+            <label>Карта:</label><br>
+            <input type="radio" id="visa" name="card" value="visa" checked>
+            <label for="visa">Visa</label><br>
+            <input type="radio" id="mir" name="card" value="mir">
+            <label for="mir">Мир картой</label><br>
+            <input type="radio" id="mastercard" name="card" value="mastercard">
+            <label for="mastercard">Mastercard</label><br>
+            <input type="radio" id="discover" name="card" value="discover">
+            <label for="discover">Discover</label><br>
+            <input type="radio" id="amex" name="card" value="amex">
+            <label for="amex">American express</label>
+        </p>
+        
+        <p>
+            <button type="submit">Оплатить</button>
+        </p>
+    </form>
+</body>
+</html>
